@@ -1,0 +1,5 @@
+import type { Metadata } from 'next';
+import './fonts.css';
+import './globals.css';
+export const metadata: Metadata = {title:'Rilhvan & Habeeba | Wedding Invitation',description:'Join us on 29 November 2026, 11:30 AM–2:00 PM, at Misaab Convention Center, Perassannur.',metadataBase:new URL('https://rilhvan-habeeba-wedding.almondgecko65.chatgpt.site'),alternates:{canonical:'/'},openGraph:{type:'website',url:'https://rilhvan-habeeba-wedding.almondgecko65.chatgpt.site',title:'Rilhvan & Habeeba — A beautiful beginning',description:'Wedding Reception · 29 November 2026 · Misaab Convention Center',images:[{url:'https://rilhvan-habeeba-wedding.almondgecko65.chatgpt.site/whatsapp-preview-v6.png',width:1254,height:1254,alt:'Rilhvan and Habeeba invitation artwork'}]},twitter:{card:'summary_large_image',images:['https://rilhvan-habeeba-wedding.almondgecko65.chatgpt.site/whatsapp-preview-v6.png']},icons:{icon:'/favicon.svg'}};
+export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><head><link rel="preload" as="image" href="/welcome-continuous-v14.webp" type="image/webp"/></head><body>{children}</body></html>}
